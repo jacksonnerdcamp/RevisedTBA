@@ -1,6 +1,6 @@
 package Rooms;
 
-public class Room {
+public class Room{
     private int xLoc,yLoc;
     public Room(int xLoc, int yLoc)
     {

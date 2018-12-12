@@ -10,7 +10,15 @@ public class Runner {
 
     public static void main(String[] args)
     {
-        Board.()
-        Board[][] map = new Board[][];
+        Board[][] map = new Board[5][5];
+
+        //Fill the board with empty boxes
+        for (int x = 0; x < map.length; x++)
+        {
+            for (int y = 0; y < map[x].length; y++)
+            {
+                map[x][y] = new Room(x,y);
+            }
+        }
     }
 }
